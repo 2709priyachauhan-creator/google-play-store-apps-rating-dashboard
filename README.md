@@ -1,2 +1,13 @@
-# google-play-store-apps-rating-dashboard
-Predicts app ratings using regression models.  Performs sentiment analysis on user reviews.   Upload app CSV or review CSV to get instant predictions, analytics, and visualizations. 
+# Google Play Store App Dashboard
+
+A Streamlit app to predict app ratings and review sentiment, with ML explainability via SHAP.  
+Upload Play Store app and review CSVs to interact with live predictions.
+
+## Usage
+1. Upload your CSV file (see example data).
+2. View predictions and explanations.
+
+## Files
+- dashboard-app.py (main app)
+- *.joblib (model and transformer files)
+- requirements.txt (dependencies)
